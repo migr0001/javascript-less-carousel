@@ -1,0 +1,15 @@
+.carousel-items > div {
+  display: none;
+}
+
+#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium
+#elasmotherium-control:checked ~ .carousel-inner #elasmotherium
+#glyptodon-control:checked ~ .carousel-inner #glyptodon
+#megatherium-control:checked ~ .carousel-inner #megatherium {
+  background-color: #fff;
+}
+
+.carousel-btn {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
